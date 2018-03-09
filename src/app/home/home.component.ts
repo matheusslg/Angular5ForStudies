@@ -35,8 +35,8 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
 export class HomeComponent implements OnInit {
 
   itemCount: number;
-  btnText: string = 'Add an item';
-  goalText: string = 'My first life goal';
+  btnText: string = 'Add Item';
+  goalText: string = 'Minha primeira meta de vida.';
   goals = [];
 
   constructor() { }
@@ -53,5 +53,6 @@ export class HomeComponent implements OnInit {
 
   removeItem(i) {
     this.goals.splice(i, 1);
+    this.itemCount = this.itemCount - 1;
   }
 }
