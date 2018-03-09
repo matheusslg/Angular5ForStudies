@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 // importados manualmente
+import { DataService } from './data.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 //
@@ -25,7 +26,7 @@ import { AboutComponent } from './about/about.component';
     FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [DataService], // importado manualmente
   bootstrap: [AppComponent]
 })
 export class AppModule { }

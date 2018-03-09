@@ -1,3 +1,9 @@
 <p>
-  about works!
+    Esta é a página sobre. <a href="" (click)="sendMeHome()"><strong>Voltar para o início</strong></a>.
 </p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
