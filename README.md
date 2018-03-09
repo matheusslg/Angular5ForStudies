@@ -1,5 +1,8 @@
 # Angular5ForStudies
 
+Este projeto foi baseado na vídeo aula do canal DesignCourse.
+Link do vídeo: https://www.youtube.com/watch?v=oa9cnWTpqP8
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
